@@ -17,6 +17,10 @@ header nav ul li a {
   color: white;
   text-decoration: none;
 }
+img {
+  margin-left: 50px;
+}
+
 footer {
   background-color: black;
   color: white;
@@ -25,4 +29,16 @@ footer {
 }
 section {
   height: 100vh;
+}
+@media (max-width: 380px) {
+  h1 {
+    text-align: center;
+  }
+  section {
+    height: 90vh;
+    overflow: scroll;
+  }
+  .summary {
+    font-size: 0.6rem;
+  }
 }
