@@ -1,0 +1,28 @@
+body {
+  background-color: #f6f5f5;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header {
+  background-color: black;
+  padding: 5px 0;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+section {
+  height: 100vh;
+}
